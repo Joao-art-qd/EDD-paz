@@ -79,8 +79,9 @@ nav ul li a {
   margin-top: 50px;
 }
 
+/* Alinhamento à esquerda para textos maiores */
 .item {
-  text-align: center;
+  text-align: left;
   margin: 20px auto;
   max-width: 600px;
   font-size: 1.2em;
