@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ENCONTRO DE DISCIPULADORES COM DEUS - EDD - 2025</title>
+  <title>EDD 2025</title>
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,44 +18,53 @@
     </ul>
   </nav>
 
-  <div class="hero">
-    <h1>ENCONTRO DE DISCIPULADORES COM DEUS - EDD - 2025</h1>
+  <section class="hero" data-aos="fade-up">
+    <h1>EDD 2025</h1>
     <p>📅 01, 02 e 03 de agosto</p>
-    <div class="countdown" id="countdown">
-      <div><span id="dias">00</span><br>Dias</div>
-      <div><span id="horas">00</span><br>Horas</div>
-      <div><span id="minutos">00</span><br>Minutos</div>
-      <div><span id="segundos">00</span><br>Segundos</div>
+    <div class="countdown">
+      <div>
+        <span id="dias">27</span><br>Dias
+      </div>
+      <div>
+        <span id="horas">20</span><br>Horas
+      </div>
+      <div>
+        <span id="minutos">16</span><br>Min
+      </div>
+      <div>
+        <span id="segundos">37</span><br>Seg
+      </div>
     </div>
-  </div>
+  </section>
 
-  <section id="sobre">
+  <section id="sobre" data-aos="fade-up">
     <h2 class="section-title">Sobre o Evento</h2>
-    <p>Um evento único que reúne pessoas com propósito, fé e comunhão. Você é nosso convidado especial.</p>
+    <p class="item">O EDD 2025 é o maior encontro de desenvolvimento do ano. Participe!</p>
   </section>
 
-  <section id="programacao">
+  <section id="programacao" data-aos="fade-up">
     <h2 class="section-title">Programação</h2>
-    <div class="item"><h3>01 de Agosto</h3><p>Abertura e adoração</p></div>
-    <div class="item"><h3>02 de Agosto</h3><p>Palestras e painéis</p></div>
-    <div class="item"><h3>03 de Agosto</h3><p>Encerramento e envio</p></div>
+    <p class="item">Confira as palestras e atividades imperdíveis.</p>
   </section>
 
-  <section id="local">
+  <section id="local" data-aos="fade-up">
     <h2 class="section-title">Local</h2>
-    <p>Sítio da Paz Church – Lábrea/AM</p>
+    <p class="item">Centro de Convenções, Cidade XYZ</p>
   </section>
 
-  <section id="inscricao">
-    <h2 class="section-title">Inscrição</h2>
-    <p>Garanta já sua vaga preenchendo o formulário abaixo:</p>
-    <a href="https://forms.gle/F1cJuZrq1uyToFab8" target="_blank" class="btn-main">Fazer Inscrição</a>
+  <section id="inscricao" data-aos="zoom-in">
+    <h2 class="section-title">Inscreva-se</h2>
+    <a href="#" class="btn-main">Quero Participar</a>
   </section>
 
   <footer>
-    © 2025 Organização do Evento. Todos os direitos reservados.
+    <p>© 2025 EDD. Todos os direitos reservados.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
