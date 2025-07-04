@@ -32,7 +32,17 @@ nav ul li a {
   background: url('capa do site.png') no-repeat center center;
   background-size: cover;
   text-align: center;
-  padding: 150px 20px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6); /* Escurece para dar contraste */
+  padding: 40px 20px;
+  border-radius: 10px;
 }
 
 .hero h1 {
@@ -51,29 +61,11 @@ nav ul li a {
   flex-wrap: wrap;
   gap: 20px;
   font-size: 1.2em;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .countdown div {
   text-align: center;
-}
-
-.section-title {
-  font-size: 2em;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.item {
-  text-align: center;
-  margin: 20px auto;
-  max-width: 600px;
-  font-size: 1.2em;
-}
-
-#inscricao {
-  text-align: center;
-  margin: 50px 0;
 }
 
 .btn-main {
@@ -109,19 +101,25 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .hero {
-    padding: 100px 20px;
-  }
-
   .hero h1 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
   .hero p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .countdown {
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-main {
+    font-size: 1em;
+    padding: 12px 25px;
+  }
+
+  .hero .overlay {
+    padding: 30px 15px;
   }
 }
