@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EDD 2025</title>
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
   <nav>
@@ -18,33 +18,51 @@
     </ul>
   </nav>
 
-  <section class="hero">
-    <div class="overlay">
-      <h1 data-aos="fade-down">EDD 2025</h1>
-      <p data-aos="fade-up">01, 02 e 03 de agosto</p>
-      <div class="countdown" data-aos="fade-up">
-        <div>
-          <span id="days">27</span><br/>Dias
-        </div>
-        <div>
-          <span id="hours">20</span><br/>Horas
-        </div>
-        <div>
-          <span id="minutes">16</span><br/>Minutos
-        </div>
-        <div>
-          <span id="seconds">37</span><br/>Segundos
-        </div>
+  <section class="hero" data-aos="fade-up">
+    <h1>EDD 2025</h1>
+    <p>📅 01, 02 e 03 de agosto</p>
+    <div class="countdown">
+      <div>
+        <span id="dias">27</span><br>Dias
       </div>
-      <a href="https://forms.gle/seu-formulario" target="_blank" class="btn-main" data-aos="fade-up">Faça sua Inscrição</a>
+      <div>
+        <span id="horas">20</span><br>Horas
+      </div>
+      <div>
+        <span id="minutos">16</span><br>Min
+      </div>
+      <div>
+        <span id="segundos">37</span><br>Seg
+      </div>
     </div>
   </section>
 
+  <section id="sobre" data-aos="fade-up">
+    <h2 class="section-title">Sobre o Evento</h2>
+    <p class="item">O EDD 2025 é o maior encontro de desenvolvimento do ano. Participe!</p>
+  </section>
+
+  <section id="programacao" data-aos="fade-up">
+    <h2 class="section-title">Programação</h2>
+    <p class="item">Confira as palestras e atividades imperdíveis.</p>
+  </section>
+
+  <section id="local" data-aos="fade-up">
+    <h2 class="section-title">Local</h2>
+    <p class="item">Centro de Convenções, Cidade XYZ</p>
+  </section>
+
+  <section id="inscricao" data-aos="zoom-in">
+    <h2 class="section-title">Inscreva-se</h2>
+    <a href="https://docs.google.com/forms/d/SEU_FORMULARIO_AQUI" target="_blank" class="btn-main">Quero Participar</a>
+  </section>
+
   <footer>
-    © 2025 EDD - Todos os direitos reservados
+    <p>© 2025 EDD. Todos os direitos reservados.</p>
   </footer>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
